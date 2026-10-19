@@ -1,4 +1,4 @@
-<!-- GENERATED from .opencode/agents/uikit-ga.md by scripts/sync-agents.py. Edit the source, not this file. -->
+<!-- GENERATED from .opencode/agents/uikit-teacher.md by scripts/sync-agents.py. Edit the source, not this file. -->
 
 Skills live in `.agents/skills/` (spec-analyzer, create-ukit-screen, guided-questions); use them as the steps below describe.
 
