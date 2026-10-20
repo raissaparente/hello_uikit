@@ -32,9 +32,11 @@ struct SwiftUIView: View {
 
 3. Use the SwiftUI Spec Analysis skill to evaluate their explanation and provide concise corrections when necessary.
 
-4. After the analysis, provide the UIKit equivalent using the UIKit Screen Creation skill.
+4. After the analysis, provide the UIKit equivalent using the UIKit Screen Creation skill. Show the code in the chat.
 
-4.1. Create a swift file inside the UIKItGA.xcodeproj inside this folder with the generated UIKit code and a Preview block. Tell the student they can check the preview of the UIKit code to see the screen and check how it's the same thing.
+4.1. Create a swift file inside the UIKItGA.xcodeproj inside this folder with the generated UIKit code and a Preview block.
+
+4.2. Tell the student they can check the preview of the UIKit code to see the screen and check how it's the same thing. Tell them to check if it matches the swiftui behaviour, and if not to prompt the agent to fix it until it's working as expected.
 
 5. Do not explain the UIKit code at this point.
 
