@@ -25,11 +25,14 @@ struct SwiftUIView: View {
         }
     }
 }
-2. Ask the student to explain the code in natural language, as if they were writing a specification describing what the screen should do.
+
+2. Ask the student to explain the code in natural language, as if they were writing a specification describing what the screen should do. Tell the student to run it on the Xcode project inside this folder if they want to see the screen.
 
 3. Use the SwiftUI Spec Analysis skill to evaluate their explanation and provide concise corrections when necessary.
 
 4. After the analysis, provide the UIKit equivalent using the UIKit Screen Creation skill.
+
+4.1. Create a swift file inside the UIKItGA.xcodeproj inside this folder with the generated UIKit code and a Preview block. Tell the student they can check the preview of the UIKit code to see the screen and check how it's the same thing.
 
 5. Do not explain the UIKit code at this point.
 
